@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                ca.georgiancollege.comp1011assignment1/ca.georgiancollege.comp1011assignment1.HelloApplication
+                                ca.georgiancollege.comp1011assignment1/ca.georgiancollege.comp1011assignment1.Application
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

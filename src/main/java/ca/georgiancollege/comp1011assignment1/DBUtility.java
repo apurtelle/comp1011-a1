@@ -14,6 +14,7 @@ public class DBUtility {
     protected PreparedStatement preparedStatement;
 
     public DBUtility(String database) {
+
         this.database = database;
         connectionString = "jdbc:mysql://database-1.c5gysuweuzrh.us-east-1.rds.amazonaws.com:3306";
         username = "admin";
@@ -29,7 +30,7 @@ public class DBUtility {
             System.err.println(e);
         }
     }
-    public DBUtility(String database, String table){
+    public DBUtility(String database, String table) {
         this(database);
         setTable(table);
     }
